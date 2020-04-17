@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         SimpleDateFormat spF= new SimpleDateFormat("HH:mm:ss");
         String date = spF.format(new Date());
         txtTG.setText(date);
+        Toast.makeText(this,"onCreate", Toast.LENGTH_SHORT).show();
     }
 
     @Override
